@@ -1,0 +1,88 @@
+:root{
+    --accent-color: #FED136;
+    --white: #FFF;
+    --black:  #000;
+    --grey:   #777;
+    --input-color: #bbb;
+    
+    
+}
+a{
+  text-decoration: none;
+}
+body{
+ font-size: 14px;
+ line-height: 16.41px;
+ letter-spacing: 0.35px;
+ color: var(--text-color);
+}
+    
+.header{
+
+}
+.logo{
+color: var(--accent-color);
+font-family: "Bilbo Swash Caps",sans-serif;
+font-size: 36px;
+line-height: 1.13;
+letter-spacing: 1.3px;
+
+}
+.navigation{
+
+}
+
+
+.navigation-list{
+
+}
+.navigation-link{
+color: var(--accent-color);
+font-family: "montserrat",sans-serif;
+font-size: 14px;
+line-height: 2.92;
+}
+.section-title{
+    font-family:"Montserrat",sans-serif ;
+    font-size: 40px;
+    line-height: 1.87;
+    letter-spacing: -1px;
+    text-align: center;
+
+    color: var(--black);
+    
+}
+.white{
+    color: var(--white);
+}
+.service-item{
+ text-align: center;
+}
+.service p{
+    font-family:"roboto slab",serif ;
+
+}
+.section-item-title{
+  color: var(--black);
+  font-family: "montserrat",sans-serif;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: -0.45;
+}
+.contact{
+    background-color: var(--black);
+}
+.contact input::placeholder,
+.contact textarea::placeholder{
+    color: var(--input-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-btn{
+color: var(--white);
+background-color: var(--accent-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+text-transform: uppercase;
+}

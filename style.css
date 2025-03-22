@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 :root{
     --accent-color: #FED136;
     --white: #FFF;
@@ -10,16 +13,31 @@
 a{
   text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,ul,li,button,p,input,label,form{
+    margin: 0;
+    padding: 0;
+}
 body{
  font-size: 14px;
  line-height: 16.41px;
  letter-spacing: 0.35px;
  color: var(--text-color);
 }
+.container{
+    width: 964px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: solid rebeccapurple;
+}
     
 .header{
-
+  margin-bottom: 109px;
+  margin-top: 44px;
 }
+
 .logo{
 color: var(--accent-color);
 font-family: "Bilbo Swash Caps",sans-serif;
@@ -62,6 +80,10 @@ line-height: 2.92;
     font-family:"roboto slab",serif ;
 
 }
+.service{
+    margin-bottom: 119px;
+
+}
 .section-item-title{
   color: var(--black);
   font-family: "montserrat",sans-serif;
@@ -71,6 +93,8 @@ line-height: 2.92;
 }
 .contact{
     background-color: var(--black);
+    padding-top:90px ;
+    padding-bottom: 115px ;
 }
 .contact input::placeholder,
 .contact textarea::placeholder{

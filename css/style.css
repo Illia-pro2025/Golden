@@ -1,114 +1,117 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-:root{
-    --accent-color: #FED136;
-    --white: #FFF;
-    --black:  #000;
-    --grey:   #777;
-    --input-color: #bbb;
-    
-    
+:root {
+  --accent-color: #fed136;
+  --white: #fff;
+  --black: #000;
+  --grey: #777;
+  --input-color: #bbb;
 }
-a{
+a {
   text-decoration: none;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-h1,h2,h3,h4,h5,ul,li,button,p,input,label,form{
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+button,
+p,
+input,
+label,
+form {
+  margin: 0;
+  padding: 0;
 }
-body{
- font-size: 14px;
- line-height: 16.41px;
- letter-spacing: 0.35px;
- color: var(--text-color);
+body {
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.35px;
+  color: var(--text-color);
 }
-.container{
-    width: 964px;
-    margin: 0 auto;
-    padding: 0 15px;
-    outline: solid rebeccapurple;
+.container {
+  width: 964px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: solid rebeccapurple;
 }
-    
-.header{
+
+.header {
   margin-bottom: 109px;
   margin-top: 44px;
 }
 
-.logo{
-color: var(--accent-color);
-font-family: "Bilbo Swash Caps",sans-serif;
-font-size: 36px;
-line-height: 1.13;
-letter-spacing: 1.3px;
-
+.logo {
+  color: var(--accent-color);
+  font-family: "Bilbo Swash Caps", sans-serif;
+  font-size: 36px;
+  line-height: 1.13;
+  letter-spacing: 1.3px;
 }
-.navigation{
-
+.navigation {
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.navigation-list{
+.navigation-list {
+}
+.navigation-link {
+  color: var(--accent-color);
+  font-family: "montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 2.92;
+}
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  line-height: 1.87;
+  letter-spacing: -1px;
+  text-align: center;
 
-}
-.navigation-link{
-color: var(--accent-color);
-font-family: "montserrat",sans-serif;
-font-size: 14px;
-line-height: 2.92;
-}
-.section-title{
-    font-family:"Montserrat",sans-serif ;
-    font-size: 40px;
-    line-height: 1.87;
-    letter-spacing: -1px;
-    text-align: center;
-
-    color: var(--black);
-    
-}
-.white{
-    color: var(--white);
-}
-.service-item{
- text-align: center;
-}
-.service p{
-    font-family:"roboto slab",serif ;
-
-}
-.service{
-    margin-bottom: 119px;
-
-}
-.section-item-title{
   color: var(--black);
-  font-family: "montserrat",sans-serif;
+}
+.white {
+  color: var(--white);
+}
+.service-item {
+  text-align: center;
+}
+.service p {
+  font-family: "roboto slab", serif;
+}
+.service {
+  margin-bottom: 119px;
+}
+.section-item-title {
+  color: var(--black);
+  font-family: "montserrat", sans-serif;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: -0.45;
 }
-.contact{
-    background-color: var(--black);
-    padding-top:90px ;
-    padding-bottom: 115px ;
+.contact {
+  background-color: var(--black);
+  padding-top: 90px;
+  padding-bottom: 115px;
 }
 .contact input::placeholder,
-.contact textarea::placeholder{
-    color: var(--input-color);
-    text-transform: uppercase;
-    font-weight: 700;
+.contact textarea::placeholder {
+  color: var(--input-color);
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.contact-btn{
-color: var(--white);
-background-color: var(--accent-color);
-font-size: 18px;
-font-weight: 700;
-line-height: 1.16;
-text-transform: uppercase;
+.contact-btn {
+  color: var(--white);
+  background-color: var(--accent-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  text-transform: uppercase;
 }
